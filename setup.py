@@ -25,7 +25,7 @@ setup(
         'Programming Language :: Python :: 3.11',
         'Operating System :: OS Independent',
     ],
-    python_requires='>=3.11',
+    python_requires='>=3.9',
     keywords='tls client, web scraping, reverse engineering, takion api',
     project_urls={
         'Documentation': 'https://github.com/Takion-API-Services/takion-tls',
