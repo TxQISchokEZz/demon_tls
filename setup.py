@@ -6,14 +6,13 @@ def read_requirements():
         return f.read().splitlines()
 
 setup(
-    name='takion-tls',
+    name='demon_tls',
     version='0.1.0',
-    author='GlizzyKingDreko',
-    author_email='glizzykingdreko@protonmail.com',
+    author='Dusk',
     description='A Python TLS client for auto-updating, customizable secure connections, ideal for advanced web scraping and reverse engineering. By TakionAPI',
     long_description=open('README.md').read(),
     long_description_content_type='text/markdown',
-    url='https://github.com/Takion-API-Services/takion-tls',
+    url='https://github.com/TxQISchokEZz/demon_tls',
     packages=find_packages(),
     install_requires=read_requirements(),  # Use the function to read requirements
     classifiers=[
